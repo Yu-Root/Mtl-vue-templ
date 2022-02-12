@@ -1,0 +1,25 @@
+html,
+body,
+#root {
+    height: 100%;
+}
+
+.main.scroll {
+    overflow: auto;
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+}
+
+.bg {
+    font-size: calc(10px + 2vmin);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    background-color: #282c34;
+}

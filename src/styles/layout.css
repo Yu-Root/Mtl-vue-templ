@@ -1,0 +1,53 @@
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix::before,
+.clearfix::after {
+    display: table;
+    content: '';
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-cell {
+    flex: 1;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-items-center {
+    align-items: center;
+}
+
+.flex-content-center {
+    align-content: center;
+}
+
+.table {
+    display: table;
+}
+
+.table-cell {
+    display: table-cell;
+}

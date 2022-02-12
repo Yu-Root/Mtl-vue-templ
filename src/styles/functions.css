@@ -1,0 +1,48 @@
+.boder-circle {
+    border-radius: 50%;
+}
+
+.show {
+    display: inline !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.content-cross-center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 5000;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.content-stand-center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-abreast-center {
+    display: inline-block;
+    vertical-align: middle;
+}
